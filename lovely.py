@@ -28,7 +28,13 @@ HELP =""" Radio stations:
 
 4. https://radioindia.net/radio/hungamanow/icecast.audio
 
-ᴛᴏ ꜱᴛᴀʀᴛ ʀᴇᴘʟᴀʏ ᴛᴏ ᴛʜɪ
+◽HOW TO START RADIO◽
+
+🏷️ 1. TO START REPLAY TO THIS MESSAGE WITH COMMAND /lradio LIKE /lradio 1
+
+🏷️ 2. TO END AND STOP STREAM BY /stop COMMAND FOR ANY HELP JOIN @mrking5upport
+
+✨ENJOY RADIO✨
   """
 
 
