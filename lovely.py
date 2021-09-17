@@ -28,8 +28,8 @@ HELP =""" Radio stations:
 
 4. https://radioindia.net/radio/hungamanow/icecast.audio
 
-ᴛᴏ ꜱᴛᴀʀᴛ ʀᴇᴘʟᴀʏ ᴛᴏ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪᴛʜ ᴄᴏᴍᴍᴀɴᴅ /lradio <Station Number> ʟɪᴋᴇ /lradio 1
-ᴛᴏ ᴇɴᴅ and ꜱᴛᴏᴘ ꜱᴛʀᴇᴀᴍ by /stop ᴄᴏᴍᴍᴀɴᴅ  for any help join @LOVELY_5UPPORT """
+ᴛᴏ ꜱᴛᴀʀᴛ ʀᴇᴘʟᴀʏ ᴛᴏ ᴛʜɪ
+  """
 
 
 GROUP_CALLS = {}
@@ -47,7 +47,7 @@ async def help(client,message):
 @app.on_message(filters.command('lradio', prefixes='/'))
 async def start(client,message):
 	get =await client.get_chat_member(message.chat.id,message.from_user.id)
-	status = get. status
+	status = get.
 	cmd_user = ["administrator","creator"]
 	if status in cmd_user:
 		input_filename = f'radio-{message.chat.id}.raw'
