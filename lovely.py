@@ -34,8 +34,7 @@ HELP =""" Radio stations:
 
 🏷️ 2. TO END AND STOP STREAM BY /stop COMMAND FOR ANY HELP JOIN @mrking5upport
 
-✨ENJOY RADIO✨
-  """
+✨ENJOY RADIO✨"""
 
 
 GROUP_CALLS = {}
