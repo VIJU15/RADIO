@@ -80,7 +80,7 @@ async def start(client,message):
 	await group_call.start(message.chat.id)
 	process = ffmpeg.input(station_stream_url).output(        input_filename, format='s16le',       acodec='pcm_s16le', ac=2, ar='48k'  ).overwrite_output().run_async()
 	FFMPEG_PROCESSES[message.chat.id] = process
-	await message.reply_text(f'RADIO #{station_id} ꜱᴛᴀʀᴛᴇᴅ ᴘʟᴀʏɪɴɢ ᴜʀ ᴄʜᴏᴏꜱᴇɴ ꜱᴛᴀᴛɪᴏɴ.')
+	await message.reply_text(f'RADIO #{station_id} 📻📡𝗦𝗧𝗔𝗥𝗧𝗘𝗗 𝗣𝗟𝗔𝗬𝗜𝗡𝗚 𝗨𝗥 𝗖𝗛𝗢𝗢𝗦𝗘𝗡 𝗦𝗧𝗔𝗧𝗜𝗢𝗡📡📻.... JOIN OUR @mrking5upport')
 
 
 @app.on_message( filters.command('stop', prefixes='/'))
