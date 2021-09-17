@@ -52,7 +52,7 @@ async def help(client,message):
 @app.on_message(filters.command('lradio', prefixes='/'))
 async def start(client,message):
 	get =await client.get_chat_member(message.chat.id,message.from_user.id)
-	status = get.
+	status = get. status
 	cmd_user = ["administrator","creator"]
 	if status in cmd_user:
 		input_filename = f'radio-{message.chat.id}.raw'
