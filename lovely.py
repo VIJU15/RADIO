@@ -30,7 +30,7 @@ HELP =""" Radio stations:
 
 ◽HOW TO START RADIO◽
 
-🏷️ 1. TO START REPLAY TO THIS MESSAGE WITH COMMAND /lradio LIKE /lradio 1
+🏷️ 1. TO START REPLAY TO THIS MESSAGE WITH COMMAND /VIJU LIKE /VIJU 1
 
 🏷️ 2. TO END AND STOP STREAM BY /stop COMMAND FOR ANY HELP JOIN @mrking5upport
 
@@ -49,7 +49,7 @@ async def help(client,message):
 		await message.reply_text(HELP)
 
 
-@app.on_message(filters.command('lradio', prefixes='/'))
+@app.on_message(filters.command('VIJU', prefixes='/'))
 async def start(client,message):
 	get =await client.get_chat_member(message.chat.id,message.from_user.id)
 	status = get. status
