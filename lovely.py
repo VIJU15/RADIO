@@ -18,7 +18,7 @@ app = Client(SESSION_NAME, API_ID, API_HASH)
 
 
 
-HELP =""" Radio stations:
+HELP =""" 💫 Radio stations:
 
 1. https://radioindia.net/radio/hungamanow/icecast.audio
 
@@ -28,11 +28,11 @@ HELP =""" Radio stations:
 
 4. https://radioindia.net/radio/hungamanow/icecast.audio
 
-◽HOW TO START RADIO◽
+🔳 HOW TO START RADIO 🔳
 
 🏷️ 1. TO START REPLAY TO THIS MESSAGE WITH COMMAND /VIJU LIKE /VIJU 1
 
-🏷️ 2. TO END AND STOP STREAM BY /stop COMMAND FOR ANY HELP JOIN @mrking5upport
+🏷️ 2. TO END AND STOP STREAM BY /stop COMMAND FOR ANY HELP JOIN @TgW0RLD
 
 ✨ENJOY RADIO✨"""
 
